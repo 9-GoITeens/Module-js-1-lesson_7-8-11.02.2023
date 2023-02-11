@@ -5,16 +5,94 @@
 // виведи строку
 // "Такої кількості зірок немає"
 
+// const stars = 7;
+// let price;
+
+// if (stars === 1) {
+//     price = 20;
+// } else if (stars === 2) {
+//     price = 30;
+// } else if (stars === 3) {
+//     price = 50;
+// } else if (stars === 4) {
+//     price = 70;
+// } else if (stars === 5) {
+//     price = 120;
+// } else {
+//     console.log("Такої кількості зірок немає");
+// }
+
 // const stars = 1;
 // let price;
 
+// switch (stars) {
+//     case 1:
+//         price = 20;
+//         console.log('hjk;l')
+//         // break;
+    
+//     case 2:
+//         price = 30;
+//         // break;
+    
+//     case 3:
+//         price = 50;
+//         break;
+    
+//     case 4:
+//         price = 70;
+//         break;
+    
+//     case 5:
+//         price = 120;
+//         break;
+    
+//     default:
+//         console.log("Такої кількості зірок немає");
+// }
+
+// console.log(price);
 // ....................................
 
 // напиши скрипт вибору вартості готелю по кількості зірок
-// 1,2 - 20$, 3,4 - 30$, 5 -120$
+// 1,2 - 2$,0 3,4 - 30$, 5 -120$
+// && - логічне і
+// || - логічне або
 
-// const stars = 1;
+// const stars = 7;
 // let price;
+
+// if (stars === 1 || stars ===2) {
+//     price = 20;
+// } else if (stars === 3 || stars === 4) {
+//     price = 30;
+// } else if (stars === 5) {
+//     price = 120;
+// } else {
+//     console.log("Такої кількості зірок немає");
+// }
+
+
+// switch (stars) {
+//     case 1:
+//     case 2:
+//         price = 20;
+//         break;
+    
+//     case 3:
+//     case 4:
+//         price = 30;
+//         break;
+    
+//     case 5:
+//         price = 120;
+//         break;
+    
+//     default:
+//         console.log("Такої кількості зірок немає");
+// }
+
+// console.log(price);
 
 
 // .....................................
@@ -29,6 +107,35 @@
 // - "Курєр доставить замовлення завтра з 9:00 до 18:00"
 // - "Посилка буде відправлена сьогодні"
 // - "Вам передзвонить менеджер"
+
+// 1) зробити змінну
+const option = 4;
+let message;
+
+// 2)зробити свіч 1, 2, 3
+// 3) і у кожен кейс записати строку
+
+switch (option) {
+    case 1:
+        message = "Ви можете забрати товар завтра з 12:00 у нашому офісі";
+        break;
+    
+    case 2:
+        message = "Курєр доставить замовлення завтра з 9:00 до 18:00";
+        break;
+    
+    case 3:
+        message = "Посилка буде відправлена сьогодні";
+        break;
+    
+    default:
+        message = "Вам передзвонить менеджер";
+    
+    
+}
+
+// console.log(message);
+
 
 
 

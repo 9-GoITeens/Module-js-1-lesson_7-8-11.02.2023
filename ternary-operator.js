@@ -9,5 +9,8 @@ let message;
 //     message = "Негативний баланс";
 // }
 
+message = balance >= 0 ? "Позитивний баланс" : "Негативний баланс";
+
+// message = умова ? 1 : 2; 
 
 // console.log(message);
